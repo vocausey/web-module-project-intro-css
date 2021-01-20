@@ -46,70 +46,94 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-h1{
-    font-family: "Chelsea Market";
+/**end of reset*/
+* {
+    font-family: 'Roboto Mono';
+    font-size: 2rem;
 }
+
 
 nav{
     text-align: center;
 }
 body{
   width: 100%;
-  background: #DDB9A3;
+  background: whitesmoke;
 }
 button{
   display:inline-block;
-  font-size:1rem;
-  padding: .5rem;
-  border-radius:.5rem;
+  font-size:1.5rem;
+  padding: 1rem;
+  border-radius:1rem;
+  margin:1rem;
 }
-header{
+.imageText{
     display: inline-block;
-    
 }
-.imargeContainer{
-    border-radius: 50%s;
+
+.imargeContainer img{
+    border-radius: 50%;
+    max-width: 25%;
+display: inline-block;
+vertical-align: middle;
+}
+.text-container{
+text-align: center;
+display: inline-block;
+box-sizing: border-box;
+border: 1px dotted black;
+place-items: right;
 }
 .plan { 
     display:inline-block;
     background-color: #FF764E;
-    width: 30%;
+    width: 15%;
 }
 .learn {
     display:inline-block;
     background-color:#5ED3EB;
-    width: 30%;
+    width: 15%;
 }
 
 
 .get{
     display:inline-block;
     background-color: #FFCD69;
-    width: 30%;
+    width: 15%;
    
 }
-h1{
-  text-align: center;
-  width: 800px;
-  font-size: 3rem;
+h1 a{
+  
+  width: 20px;
+  font-size: 2rem;
+  font-family: 'Chelsea Market';
   }
 .textcontainerOne{
-  text-align: left;
+ width: 100%;
   background:#DDB9A3;
-  margin:3rem;
-  padding: 1rem;
-
+  margin:0rem;
+  padding:;
+  box-sizing: border-box;
 }
 h1 {
-  font-family: 'Chelsea Market';
+    text-align: center;
 }
 .camp img {
-   display: block;
-  width: 5rem;
-  height: 5rem;
-  object-position: center;
+   display: block-inline;
+   text-align: center;
+     width:100%;
+ height: 5rem;
 }
-p{
+h2{
+    text-align: center;
+    font-family: 'Chelsea Market';
+    font-size: .8rem;
+}
+p {
   
   text-align: center;
+}
+.footer img{
+    width: 100%;
+    height: 12rem;
 }
