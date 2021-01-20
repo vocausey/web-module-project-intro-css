@@ -46,13 +46,70 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-a {
-    display: inline-block;
-    border-radius: 20px;
-    border: 5px solid blueviolet; 
-    padding: 23px;
-    margin: 20px;
+h1{
+    font-family: "Chelsea Market";
 }
 
-a { background-color: #FF764E;}
+nav{
+    text-align: center;
+}
+body{
+  width: 100%;
+  background: #DDB9A3;
+}
+button{
+  display:inline-block;
+  font-size:1rem;
+  padding: .5rem;
+  border-radius:.5rem;
+}
+header{
+    display: inline-block;
+    
+}
+.imargeContainer{
+    border-radius: 50%s;
+}
+.plan { 
+    display:inline-block;
+    background-color: #FF764E;
+    width: 30%;
+}
+.learn {
+    display:inline-block;
+    background-color:#5ED3EB;
+    width: 30%;
+}
+
+
+.get{
+    display:inline-block;
+    background-color: #FFCD69;
+    width: 30%;
+   
+}
+h1{
+  text-align: center;
+  width: 800px;
+  font-size: 3rem;
+  }
+.textcontainerOne{
+  text-align: left;
+  background:#DDB9A3;
+  margin:3rem;
+  padding: 1rem;
+
+}
+h1 {
+  font-family: 'Chelsea Market';
+}
+.camp img {
+   display: block;
+  width: 5rem;
+  height: 5rem;
+  object-position: center;
+}
+p{
+  
+  text-align: center;
+}
